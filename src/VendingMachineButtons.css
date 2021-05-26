@@ -1,0 +1,34 @@
+.VendingMachineButtons {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.VendingMachineButtons > a {
+  margin: 10px;
+  background-image: linear-gradient(
+    180deg,
+    #888 0%,
+    #ddd 10%,
+    #fff 50%,
+    #aaa 98%,
+    #7888 100%
+  );
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #777;
+}
+
+.VendingMachineButtons > hr {
+  margin: 13px;
+}
+
+a.active {
+  color: black;
+}
+
+a.clear {
+  color: #777;
+}
